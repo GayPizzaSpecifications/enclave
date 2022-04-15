@@ -66,7 +66,8 @@ public struct EnclavePrivateKey {
 
     public static func loadOrCreate(at url: URL,
                                     authenticationContext: LAContext = LAContext(),
-                                    requireBiometricDevice: Bool = true) throws -> EnclavePrivateKey {
+                                    requireBiometricDevice: Bool = true) throws -> EnclavePrivateKey
+    {
         let key: EnclavePrivateKey
         if !FileManager.default.fileExists(atPath: url.path) {
             key = try EnclavePrivateKey(
