@@ -1,10 +1,10 @@
-// swift-tools-version: 5.6
+// swift-tools-version: 5.5
 import PackageDescription
 
 let package = Package(
     name: "enclave",
     platforms: [
-        .macOS(.v12)
+        .macOS(.v11)
     ],
     products: [
         .executable(
