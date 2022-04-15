@@ -1,4 +1,4 @@
-# secli
+# enclave
 
 Secure Enclave CLI
 
