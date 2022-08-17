@@ -9,10 +9,12 @@ let package = Package(
     products: [
         .executable(
             name: "enclave",
-            targets: ["enclave"]),
+            targets: ["enclave"]
+        ),
         .library(
             name: "EnclaveKit",
-            targets: ["EnclaveKit"])
+            targets: ["EnclaveKit"]
+        )
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMajor(from: "1.1.3"))
@@ -23,7 +25,8 @@ let package = Package(
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .target(name: "EnclaveKit")
-            ]),
+            ]
+        ),
         .target(name: "EnclaveKit")
     ]
 )
