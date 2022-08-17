@@ -2,7 +2,7 @@
 //  EnclaveCommand.swift
 //
 //
-//  Created by Kenneth Endfinger on 3/31/22.
+//  Created by Alex Endfinger on 3/31/22.
 //
 
 import ArgumentParser

@@ -15,7 +15,7 @@ let package = Package(
             targets: ["EnclaveKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMajor(from: "1.0.0"))
+        .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMajor(from: "1.1.3"))
     ],
     targets: [
         .executableTarget(
