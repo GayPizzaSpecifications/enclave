@@ -2,7 +2,7 @@
 //  main.swift
 //
 //
-//  Created by Alex Endfinger on 3/31/22.
+//  Created by Alex Zenla on 3/31/22.
 //
 import ArgumentParser
 import CryptoKit

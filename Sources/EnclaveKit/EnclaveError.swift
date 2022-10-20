@@ -2,7 +2,7 @@
 //  EnclaveError.swift
 //
 //
-//  Created by Alex Endfinger on 4/1/22.
+//  Created by Alex Zenla on 4/1/22.
 //
 
 import Foundation
